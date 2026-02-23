@@ -125,7 +125,7 @@ These questions may evolve as insights are discovered during the analysis phase.
 
 ### Dashboard Mockup
 
-![Data Flow Diagram](assets/images/Dashboard Mockup.png)
+![Data Flow Diagram](assets/images/Dashboard%20Mockup.png)
 
 
 #### Visuals considered
@@ -164,7 +164,7 @@ Publish the data to GitHub Pages
 
 ## Visualization
 ### Results
-![Data Flow Diagram](assets/images/Video Project.gif)
+![Data Flow Diagram](assets/images/Video%20Project.gif)
 
 ### DAX Measures
 #### 1.Total Subcribers (M)
