@@ -1,9 +1,5 @@
 # Data Portfolio
 ![Data Flow Diagram](assets/images/kaggle_to_powerbi.gif)
-This is my portfolio website!
-
-#Header 
-##Sub-Header
 
 # Table of contents
 
@@ -36,6 +32,17 @@ This is my portfolio website!
 ---
 
 ## Objective
+What is the key pain point?
+The Head of Marketing wants to find out who the top YouTubers are in 2025 to decide on which YouTubers would be best to run marketing campaigns throughout the rest of the year.
+
+What is the ideal solution?
+To create a dashboard that provides insights into the top UK YouTubers in 2025 that includes their
+
+subscriber count
+total views
+total videos, and
+engagement metrics
+This will help the marketing team make informed decisions about which YouTubers to collaborate with for their marketing campaigns.
 
 ### Key business problem
 The Head of Marketing needs to identify the top-performing UK YouTubers in 2025 in order to determine which creators are best suited for marketing campaigns throughout the year.
@@ -63,6 +70,18 @@ so that I can identify the highest-performing YouTube channels using metrics suc
 With these insights, I can make informed decisions about which YouTubers to collaborate with, maximising the effectiveness and return on investment of marketing campaigns in 2025.
 
 ## Data Source
+-What data is needed to achieve our objective?
+ We need data on the top UK YouTubers in 2024 that includes their
+
+-channel names
+
+-total subscribers
+
+-total views
+
+-total videos uploaded
+
+Where is the data coming from? The data is sourced from Kaggle (an Excel extract), see here to find it.
 ### Data requirements
 To achieve the project objective, the following data is required for **top UK YouTubers in 2025**:
 
@@ -104,7 +123,10 @@ These questions may evolve as insights are discovered during the analysis phase.
 
 ---
 
-### Mockup
+### Dashboard Mockup
+![Data Flow Diagram](datasets/images/Dashboard Mockup.png)
+
+
 #### Visuals considered
 To effectively answer the business questions, the following visualisations are used:
 
@@ -117,27 +139,42 @@ These visuals are designed to be intuitive for non-technical stakeholders while 
 
 ### Tools
 
+| Tool        | Purpose |
+|------------|----------|
+| Excel      | Exploring the data |
+| SQL Server | Cleaning, testing, and analyzing the data |
+| Power BI   | Visualizing the data via interactive dashboards |
+| GitHub     | Hosting the project documentation and version control |
+| Mokkup AI  | Designing the wireframe/mockup of the dashboard |
+
 ## Development
 
 ### Pseudocode
-
-### Data Exploration
-
-### Data Cleaning
-
-### Transform the Data
-
-### Create the SQL View
-
-## Testing
-
-### Data Quality Tests
+- What's the general approach in creating this solution from start to finish?
+1.Get the data
+2.Explore the data in Excel
+3.Load the data into SQL Server
+4.Clean the data with SQL
+5.Test the data with SQL
+6.Visualize the data in Power BI
+7.Generate the findings based on the insights
+8.Write the documentation + commentary
+Publish the data to GitHub Pages
 
 ## Visualization
-
 ### Results
+![Data Flow Diagram](datasets/images/Video Project.gif)
 
 ### DAX Measures
+
+```DAX
+Total Subscribers (M) =
+VAR million = 1000000
+VAR sumOfSubscribers = SUM(view_uk_youtubers_2024[total_subscribers])
+VAR totalSubscribers = DIVIDE(sumOfSubscribers, million)
+
+RETURN totalSubscribers
+```
 
 ## Analysis
 
