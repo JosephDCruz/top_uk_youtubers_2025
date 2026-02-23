@@ -124,6 +124,7 @@ These questions may evolve as insights are discovered during the analysis phase.
 ---
 
 ### Dashboard Mockup
+
 ![Data Flow Diagram](assets/images/Dashboard Mockup.png)
 
 
