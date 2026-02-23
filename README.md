@@ -207,9 +207,10 @@ Subscriber Engagement Rate =
 VAR sumOfTotalSubscribers = SUM(view_uk_youtubers_2024[total_subscribers])
 VAR sumOfTotalVideos = SUM(view_uk_youtubers_2024[total_videos])
 VAR subscriberEngRate = DIVIDE(sumOfTotalSubscribers, sumOfTotalVideos, BLANK())
+RETURN subscriberEngRate 
 ```
 #### 6.Views Per Subscriber
-RETURN subscriberEngRate 
+
 ```DAX
 Views Per Subscriber = 
 VAR sumOfTotalViews = SUM(view_uk_youtubers_2024[total_views])
