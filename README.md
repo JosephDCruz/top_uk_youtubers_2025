@@ -1,5 +1,5 @@
 # Data Portfolio
-
+![Data Flow Diagram](assets/kaggle_to_powerbi.gif)
 This is my portfolio website!
 
 #Header 
