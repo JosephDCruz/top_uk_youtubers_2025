@@ -124,7 +124,7 @@ These questions may evolve as insights are discovered during the analysis phase.
 ---
 
 ### Dashboard Mockup
-![Data Flow Diagram](datasets/images/Dashboard Mockup.png)
+![Data Flow Diagram](assets/images/Dashboard Mockup.png)
 
 
 #### Visuals considered
@@ -163,10 +163,10 @@ Publish the data to GitHub Pages
 
 ## Visualization
 ### Results
-![Data Flow Diagram](datasets/images/Video Project.gif)
+![Data Flow Diagram](assets/images/Video Project.gif)
 
 ### DAX Measures
-
+#### 1.Total Subcribers (M)
 ```DAX
 Total Subscribers (M) =
 VAR million = 1000000
@@ -175,11 +175,74 @@ VAR totalSubscribers = DIVIDE(sumOfSubscribers, million)
 
 RETURN totalSubscribers
 ```
+#### 2.Total Views(B)
+```DAX
+Total Views (B) = 
+VAR billion = 1000000000
+VAR sumOfTotalViews = SUM(view_uk_youtubers_2024[total_views])
+VAR totalViews = ROUND(sumOfTotalViews / billion, 2)
 
+RETURN totalViews
+```
+#### 3. Total Videos
+```DAX
+Total Videos = 
+VAR totalVideos = SUM(view_uk_youtubers_2024[total_videos])
+
+RETURN totalVideos
+```
+#### 4. Average Views Per Video
+```DAX
+Average Views per Video (M) = 
+VAR sumOfTotalViews = SUM(view_uk_youtubers_2024[total_views])
+VAR sumOfTotalVideos = SUM(view_uk_youtubers_2024[total_videos])
+VAR  avgViewsPerVideo = DIVIDE(sumOfTotalViews,sumOfTotalVideos, BLANK())
+VAR finalAvgViewsPerVideo = DIVIDE(avgViewsPerVideo, 1000000, BLANK())
+
+RETURN finalAvgViewsPerVideo
+```
+#### 5.Subscriber Engangement Rate
+```DAX
+Subscriber Engagement Rate = 
+VAR sumOfTotalSubscribers = SUM(view_uk_youtubers_2024[total_subscribers])
+VAR sumOfTotalVideos = SUM(view_uk_youtubers_2024[total_videos])
+VAR subscriberEngRate = DIVIDE(sumOfTotalSubscribers, sumOfTotalVideos, BLANK())
+```
+#### 6.Views Per Subscriber
+RETURN subscriberEngRate 
+```DAX
+Views Per Subscriber = 
+VAR sumOfTotalViews = SUM(view_uk_youtubers_2024[total_views])
+VAR sumOfTotalSubscribers = SUM(view_uk_youtubers_2024[total_subscribers])
+VAR viewsPerSubscriber = DIVIDE(sumOfTotalViews, sumOfTotalSubscribers, BLANK())
+
+RETURN viewsPerSubscriber 
+```
 ## Analysis
-
 ### Findings
+What did we find?
+For this analysis, we're going to focus on the questions below to get the information we need for our marketing client -
 
+Here are the key questions we need to answer for our marketing client:
+
+1.Who are the top 10 YouTubers with the most subscribers?
+2.Which 3 channels have uploaded the most videos?
+3.Which 3 channels have the most views?
+4.Which 3 channels have the highest average views per video?
+5.Which 3 channels have the highest views per subscriber ratio?
+6.Which 3 channels have the highest subscriber engagement rate per video uploaded?
+|Rank| Channel Name| Subscribers |
+|----|-------------|-------------|
+|1   | NocopyrightSounds| 34.20  |
+|2   | DanTDM           | 29.90  |
+|3   | Dan Rhodes       | 26.50  |
+|4   | Miss Katy        | 25.60  |
+|5   | Mister Max       | 25.20  |
+|6   | KSI              | 24.90  |
+|7   | Dua Lipa         | 24.50  |
+|8   | Jelly            | 23.40  |
+|9   | Sidemen          | 22.80  |
+|10  | Mrwhosetheboss   | 21.90  |
 ### Validation
 
 ### Discovery
