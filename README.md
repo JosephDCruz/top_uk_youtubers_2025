@@ -25,9 +25,7 @@
   - [Validation](#validation)
   - [Discovery](#discovery)
 - [Recommendations](#recommendations)
-  - [Potential ROI](#potential-roi)
-  - [Potential Courses of Actions](#potential-courses-of-actions)
-- [Conclusion](#conclusion)
+  - [Conclusion](#conclusion)
 
 ---
 
@@ -294,7 +292,7 @@ We dicovered that
 6.Music and entertainment-focused channels consistently outperform others in engagement metrics, making them strong candidates for marketing partnerships.
 
 ## Recommendations
-What do you recommend based on the insights gathered?
+-What do you recommend based on the insights gathered?
 
 1.DanTDM and Dan Rhodes should be prioritised for collaboration if the objective is to maximise brand visibility due to their large subscriber bases and consistently high total views.
 
@@ -306,7 +304,7 @@ What do you recommend based on the insights gathered?
 
 5.For long-term marketing partnerships, channels that balance large subscriber bases with strong engagement metrics should be prioritised over those relying solely on upload volume.
 ## Conclusion
-
+-What course of action should we take and why?
 1.We should prioritise partnerships with DanTDM and Dan Rhodes if the objective is to maximise reach, as they combine large subscriber bases with consistently high total views.
 
 2.We should consider collaborating with DisneyJuniorUK for campaigns focused on maximising impressions, given its exceptionally high total views and strong views-per-subscriber ratio.
