@@ -158,8 +158,7 @@ These visuals are designed to be intuitive for non-technical stakeholders while 
 6.Visualize the data in Power BI
 7.Generate the findings based on the insights
 8.Write the documentation + commentary
-Publish the data to GitHub Pages
-
+9.Publish the data to GitHub Pages
 ## Visualization
 ### Results
 ![Data Flow Diagram](assets/images/Video%20Project.gif)
