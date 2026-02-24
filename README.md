@@ -233,6 +233,8 @@ Here are the key questions we need to answer for our marketing client:
 4.Which 3 channels have the highest average views per video?
 5.Which 3 channels have the highest views per subscriber ratio?
 6.Which 3 channels have the highest subscriber engagement rate per video uploaded?
+
+#### 1.Who are the top 10 YouTubers with the most subscribers?
 |Rank| Channel Name| Subscribers |
 |----|-------------|-------------|
 |1   | NocopyrightSounds| 34.20  |
@@ -245,14 +247,72 @@ Here are the key questions we need to answer for our marketing client:
 |8   | Jelly            | 23.40  |
 |9   | Sidemen          | 22.80  |
 |10  | Mrwhosetheboss   | 21.90  |
-### Validation
 
+#### 2. Which 3 channels have uploaded the most videos?
+|Rank| Channel Name| Videos Uploaded |
+|----|-------------|-------------|
+|1   | 24 News HD         | 212,698 |
+|2   | Sky News           | 69,260  |
+|3   | BBC News ???       | 46,651 |
+
+#### 3. Which 3 channels have the most views?
+|Rank| Channel Name| Total Views(B) |
+|----|-------------|-------------|
+|1   | DisneyJuniorUK         | 22.66 |
+|2   | DanTDM                 | 20.27 |
+|3   | Dan Rhodes             | 19.21 |
+#### 4. Which 3 channels have the highest average views per video?
+|Rank| Channel Name| Averge Views per Video (M) |
+|----|-------------|-------------|
+|1   | Mark Ronson                 | 361.06 |
+|2   | Dua Lipa                    | 48.08 |
+|3   | Little Mix                  | 30.63 |
+#### 5. Which 3 channels have the highest views per subscriber ratio?
+|Rank| Channel Name| Views per Subscriber |
+|----|-------------|-------------|
+|1   | DisneyJuniorUK              | 1,595 |
+|2   | GRM Daily                   | 1,227 |
+|3   | Nicklodeon UK               | 1,072 |
+#### 6. Which 3 channels have the highest subscriber engagement rate per video uploaded?
+|Rank| Channel Name| Views per Subscriber |
+|----|-------------|-------------|
+|1   | Mark Ronson              | 359,000 |
+|2   | Dua Lipa                 | 77,044 |
+|3   | Little Mix               | 59,352 |
 ### Discovery
+We dicovered that
+1.NoCopyrightSounds, Dan Rhodes and DanTDM are the channels with the highest number of subscribers in the UK market.
+
+2.GRM Daily, Man City and Yogscast are the most active channels in terms of total videos uploaded.
+
+3.DisneyJuniorUK, DanTDM and Dan Rhodes generate the highest total views overall.
+
+4.Mark Ronson, Dua Lipa and Little Mix achieve the highest average views per video, indicating strong content performance per upload.
+
+5.DisneyJuniorUK, GRM Daily and Nickelodeon UK show the strongest views-per-subscriber ratios, suggesting high audience engagement relative to their subscriber base.
+
+6.Music and entertainment-focused channels consistently outperform others in engagement metrics, making them strong candidates for marketing partnerships.
 
 ## Recommendations
+What do you recommend based on the insights gathered?
 
-### Potential ROI
+1.DanTDM and Dan Rhodes should be prioritised for collaboration if the objective is to maximise brand visibility due to their large subscriber bases and consistently high total views.
 
-### Potential Courses of Actions
+2.DisneyJuniorUK presents a strong opportunity for campaigns focused on maximising impressions, given its exceptionally high total views and views-per-subscriber ratio.
 
+3.Music-focused channels such as Dua Lipa and Mark Ronson are ideal partners for high-engagement campaigns, as they generate significantly higher average views per video.
+
+4.News channels may be suitable for high-frequency exposure strategies, but may not deliver the strongest engagement efficiency relative to entertainment channels.
+
+5.For long-term marketing partnerships, channels that balance large subscriber bases with strong engagement metrics should be prioritised over those relying solely on upload volume.
 ## Conclusion
+
+1.We should prioritise partnerships with DanTDM and Dan Rhodes if the objective is to maximise reach, as they combine large subscriber bases with consistently high total views.
+
+2.We should consider collaborating with DisneyJuniorUK for campaigns focused on maximising impressions, given its exceptionally high total views and strong views-per-subscriber ratio.
+
+3.For high-engagement campaigns, we should target music and entertainment channels such as Dua Lipa and Mark Ronson, as they generate significantly higher average views per video.
+
+4.News-focused channels may be suitable for high-frequency exposure strategies; however, they should not be prioritised for engagement-driven campaigns.
+
+5.Overall, marketing partnerships should be aligned with campaign objectives (reach vs engagement vs impressions), rather than being based solely on subscriber size.
