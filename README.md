@@ -151,15 +151,15 @@ These visuals are designed to be intuitive for non-technical stakeholders while 
 ### Pseudocode
 - What's the general approach in creating this solution from start to finish?
   
-1.Get the data
-2.Explore the data in Excel
-3.Load the data into SQL Server
-4.Clean the data with SQL
-5.Test the data with SQL
-6.Visualize the data in Power BI
-7.Generate the findings based on the insights
-8.Write the documentation + commentary
-9.Publish the data to GitHub Pages
+1. Get the data
+2. Explore the data in Excel
+3. Load the data into SQL Server
+4. Clean the data with SQL
+5. Test the data with SQL
+6. Visualize the data in Power BI
+7. Generate the findings based on the insights
+8. Write the documentation + commentary
+9. Publish the data to GitHub Pages
 ## Visualization
 ### Results
 ![Data Flow Diagram](assets/images/Video%20Project.gif)
