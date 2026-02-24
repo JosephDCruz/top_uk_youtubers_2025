@@ -150,6 +150,7 @@ These visuals are designed to be intuitive for non-technical stakeholders while 
 
 ### Pseudocode
 - What's the general approach in creating this solution from start to finish?
+  
 1.Get the data
 2.Explore the data in Excel
 3.Load the data into SQL Server
